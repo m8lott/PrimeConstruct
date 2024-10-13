@@ -1,0 +1,70 @@
+.gallery-baner {
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    top: 110px;
+    background: black;
+}
+.gallery-baner__container {
+    padding: 50px 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    color: white;
+    @media screen and (max-width: 992px) {
+        flex-direction: column;
+    }
+}
+.gallery-baner__left {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+.gallery-baner__title h1{
+    font-size: 46px;
+    font-weight: 600;
+    line-height: 59.8px;
+    max-width: 600px;
+    @media screen and (max-width: 574px) {
+        font-size: 30px;
+        line-height: 35px;
+    }
+}
+
+
+.gallery-baner__desc p{
+    font-size: 16px;
+    line-height: 22px;
+    max-width: 600px;
+}
+.gallery-baner__img img{
+    width: 100%;
+    border-radius: 10px;
+    max-width: 700px;
+}
+.gallery-baner__btn {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.gallery-baner__btn a {
+    padding: 20px 50px;
+    border-radius: 10px;
+    background: #FF6500;
+    text-align: center;
+    color:white;
+    font-size: 16px;
+    line-height: 18.75px;
+    transition: 0.5s;
+    position: relative;
+    border: none;
+    top: 30px;
+    cursor: pointer;
+}
+
+.gallery-baner__btn a:hover {
+    box-shadow: 0 0 30px #ab5923, 0 0 60px #FF6500;
+}

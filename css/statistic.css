@@ -1,0 +1,33 @@
+.statistic {
+    width: 100%;
+    margin-top: 130px;
+}
+.statistic__container {
+    padding: 0 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.statistic__title {
+    text-align: center;
+}
+.statistic__items {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.statistic__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.statistic__item-title {
+    text-align: center;
+    color: #FF6500;
+}
+.statistic__item-subtitle p{
+    font-size: 16px;
+    line-height: 22px;
+}
